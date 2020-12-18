@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="60dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.sabana.ConviListActivity">
+
+    <Button
+        android:id="@+id/cu_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="onClickButton_CU"
+        android:text="CU"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/gs25_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="onClickButton_GS25"
+        android:text="GS 25"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/ministop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="onClickButton_MiniStop"
+        android:text="미니스탑"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/eleven_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="onClickButton_SevenEleven"
+        android:text="세븐일레븐"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/emart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="onClickButton_Emart24"
+        android:text="이마트24"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <Button
+        android:id="@+id/but_locset"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="606dp"
+        android:layout_marginBottom="67dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onButtonLocSetClick"
+        android:text="위치설정"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/but_setting"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/but_conv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but_setting"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="606dp"
+        android:layout_marginBottom="67dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onButtonpyonyClick"
+        android:text="할인정보"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/but_locset"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but_search"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="606dp"
+        android:layout_marginBottom="67dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onButtonSearchClick"
+        android:text="탐색"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/but_conv"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but_conv"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="606dp"
+        android:layout_marginBottom="67dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onButtonConvClick"
+        android:text="행사상품"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/but_locset"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/but_search"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTmap"
+        android:layout_width="419dp"
+        android:layout_height="586dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
