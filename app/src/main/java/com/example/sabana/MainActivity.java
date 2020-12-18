@@ -50,7 +50,7 @@ import static java.lang.Thread.sleep;
 public class MainActivity extends AppCompatActivity implements TMapGpsManager.onLocationChangedCallback {
 
     // TMap API Key
-    String API_key = "l7xx97cfc10b259149a78f176bd0fd0048c1";
+    String API_key = ""; // API Key is secret
 
     // TMapView
     // TMapGPSManager
