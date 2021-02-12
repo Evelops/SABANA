@@ -3,6 +3,8 @@
 
 ---
 
+#### 2020-2 / Capstone Design in Geoinformation Engineering
+
 #### Team
 이해민, 정윤호, 김예지
 
