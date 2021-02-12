@@ -3,7 +3,7 @@
 
 ---
 
-#### 2020-2 / Capstone Design in Geoinformation Engineering
+#### 2020-2 / 공간정보공학 종합설계 과목 - Capstone Design for Geoinformatic Engineering
 
 #### Team
 이해민, 정윤호, 김예지
